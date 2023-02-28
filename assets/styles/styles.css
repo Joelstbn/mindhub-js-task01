@@ -1,0 +1,143 @@
+*{    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.imgLogo{
+    width: 150px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px; 
+    font-size: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 60px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 60px;
+  color: white;
+}
+
+.carouselItem{
+    text-decoration: none;  
+    color: white;
+}
+
+.carousel{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(243, 30, 108);
+} 
+
+.checkbox-search{
+  padding: 50px;
+  display: flex;
+  margin: -30px 0 -30px 0;
+}
+ 
+.searchButton {
+  background-color: rgb(243, 30, 108);
+  color: white;
+  width: 50px;
+}
+
+.form-control{
+  width: 500px; 
+}
+
+.searchAndIcon{
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.card{
+  padding: 20px;
+  margin: 20px;
+}
+
+.card-body2{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cardsArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  padding: 50px;
+  margin: -50px 0 -50px 0;
+}
+
+footer{
+  background-color: rgb(243, 30, 108);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  color: white;
+}
+
+.logosLink{
+  text-decoration: none;
+  color: white; 
+}
+
+.bi-instagram, .bi-facebook, .bi-whatsapp{
+  font-size: 30px;
+  padding: 15px;
+}
+
+.contactForm{ 
+  margin: 50px 0 50px 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-primary{
+  background-color: rgb(243, 30, 108);
+}
+
+th, td{
+  border: solid 2px grey;
+  padding: 5px;
+  font-size: 10px;
+  height: 20px;
+}
+
+table{
+  margin: 25px 0 25px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.tableHeader{
+  background-color: grey;
+  background-color: rgb(243, 30, 108);
+  color: white;
+  font-size: 15px;
+  height: 30px;
+}
+
+.detailsCard{
+  display: flex;
+  justify-content: center;
+}

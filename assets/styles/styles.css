@@ -47,9 +47,9 @@ header{
 } 
 
 .checkbox-search{
-  padding: 50px;
+  padding: 30px;
   display: flex;
-  margin: -30px 0 -30px 0;
+  flex-wrap: wrap;
 }
  
 .searchButton {
@@ -64,7 +64,7 @@ header{
 
 .searchAndIcon{
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end; ; 
 }
 
 .card{
@@ -140,4 +140,34 @@ table{
 .detailsCard{
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .imgLogo{
+    width: 70px; 
+  } 
+  .cardsArea{
+    flex-direction: column-reverse;
+  }
+  .nav{
+    display: none;
+  }
+  .checkbox-search{
+    flex-wrap: wrap; 
+  }
+  .searchAndIcon{
+    width: 100%; 
+  }
+  .carousel{
+    width: 100%;
+  }
+  .form-control{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 700px){
+  .cardsArea{
+    flex-direction: column-reverse;
+  }
 }

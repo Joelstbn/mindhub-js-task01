@@ -171,3 +171,25 @@ table{
     flex-direction: column-reverse;
   }
 }
+
+.nav-item{
+  background-color: rgb(243, 30, 108);
+}
+
+.nav-link{
+  color: white;
+  
+}
+
+.nav-link:hover{
+  background-color: white;
+  color: rgb(243, 30, 108);
+}
+
+.carouselItem:hover{
+  color: rgb(19, 16, 16);
+}
+
+.btn:hover{
+  background-color: black;
+}
